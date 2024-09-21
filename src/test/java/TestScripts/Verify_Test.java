@@ -1,0 +1,15 @@
+package TestScripts;
+
+import org.testng.annotations.Test;
+
+import Utilities.GenericWrapper;
+
+public class Verify_Test {
+@Test
+	public void Test(){
+		// TODO Auto-generated method stub
+GenericWrapper GW=new GenericWrapper();
+GW.OpenBrowser("edge");
+	}
+
+}
