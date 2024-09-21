@@ -10,7 +10,9 @@ public class Verify_Test {
 		// TODO Auto-generated method stub
 GenericWrapper GW=new GenericWrapper();
 GW.OpenBrowser("edge");
+
 System.out.println("Hcddhhd");
+System.out.println("edtee");
 	}
 
 }
