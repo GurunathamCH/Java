@@ -1,21 +1,25 @@
 package TestScripts;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import Utilities.GenericWrapper;
 
 public class Verify_Test {
 @Test
-	public void Test(){
+@Parameters({"Browser"})
+	public void Test(String Browser){
+	SoftAssert SA=new SoftAssert();
 		// TODO Auto-generated method stub
 GenericWrapper GW=new GenericWrapper();
-GW.OpenBrowser("edge");
+GW.OpenBrowser(Browser);
+GW.NavigateToURL("https://www.horamait.com");
+GW.FindElementWithPlaceHolder("Name");
+Boolean Val=GW.FindElementWithPlaceHolder("Name").isDisplayed();
+SA.assertTrue(Val);
+SA.assertAll();
 
-System.out.println("Hcddhhd");
-System.out.println("edtee");
-System.out.println("binwwtyt");
-System.out.println("Bin");
-System.out.println("Hi");
 	}
 
 }
