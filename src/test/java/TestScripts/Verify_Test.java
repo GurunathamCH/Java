@@ -15,7 +15,7 @@ public class Verify_Test {
 GenericWrapper GW=new GenericWrapper();
 GW.OpenBrowser(Browser);
 GW.NavigateToURL("https://www.horamait.com");
-GW.FindElementWithPlaceHolder("Name as");
+GW.FindElementWithPlaceHolder(" wName as ww");
 Boolean Val=GW.FindElementWithPlaceHolder("Name").isDisplayed();
 SA.assertTrue(Val);
 SA.assertAll();
