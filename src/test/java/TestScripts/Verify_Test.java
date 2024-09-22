@@ -14,6 +14,7 @@ GW.OpenBrowser("edge");
 System.out.println("Hcddhhd");
 System.out.println("edtee");
 System.out.println("binww");
+System.out.println("Bin");
 	}
 
 }
