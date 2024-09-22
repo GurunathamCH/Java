@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Multi Browser]" parallel="tests">
+  <test thread-count="2" name="Chrome(failed)" parallel="tests">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestScripts.Verify_Test">
+        <methods>
+          <include name="Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestScripts.Verify_Test -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Multi Browser] -->
