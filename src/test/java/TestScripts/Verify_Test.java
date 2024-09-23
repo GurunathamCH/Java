@@ -18,6 +18,7 @@ GW.NavigateToURL("https://www.horamait.com");
 GW.FindElementWithPlaceHolder("Name");
 System.out.println("Hello");
 System.out.println("hi");
+System.out.println("absc");
 Boolean Val=GW.FindElementWithPlaceHolder("Name").isDisplayed();
 SA.assertTrue(Val);
 SA.assertAll();
