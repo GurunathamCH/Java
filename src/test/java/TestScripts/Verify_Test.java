@@ -21,6 +21,7 @@ System.out.println("hi");
 Boolean Val=GW.FindElementWithPlaceHolder("Name").isDisplayed();
 SA.assertTrue(Val);
 SA.assertAll();
+System.out.println("he");
 
 
 	}
