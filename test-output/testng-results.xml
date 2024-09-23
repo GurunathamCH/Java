@@ -2,12 +2,27 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Multi Browser" duration-ms="8657" started-at="2024-09-22T08:39:48Z" finished-at="2024-09-22T08:39:57Z">
+  <suite name="Multi Browser" duration-ms="9611" started-at="2024-09-23T02:03:25Z" finished-at="2024-09-23T02:03:34Z">
     <groups>
     </groups>
-    <test name="Chrome" duration-ms="8597" started-at="2024-09-22T08:39:48Z" finished-at="2024-09-22T08:39:57Z">
+    <test name="Edge" duration-ms="9561" started-at="2024-09-23T02:03:25Z" finished-at="2024-09-23T02:03:34Z">
       <class name="TestScripts.Verify_Test">
-        <test-method status="FAIL" signature="Test(java.lang.String)[pri:0, instance:TestScripts.Verify_Test@731f8236]" name="Test" duration-ms="8560" started-at="2024-09-22T08:39:48Z" finished-at="2024-09-22T08:39:57Z">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:TestScripts.Verify_Test@57d5872c]" name="Test" duration-ms="9518" started-at="2024-09-23T02:03:25Z" finished-at="2024-09-23T02:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- TestScripts.Verify_Test -->
+    </test> <!-- Edge -->
+    <test name="Chrome" duration-ms="9611" started-at="2024-09-23T02:03:25Z" finished-at="2024-09-23T02:03:34Z">
+      <class name="TestScripts.Verify_Test">
+        <test-method status="FAIL" signature="Test(java.lang.String)[pri:0, instance:TestScripts.Verify_Test@731f8236]" name="Test" duration-ms="9568" started-at="2024-09-23T02:03:25Z" finished-at="2024-09-23T02:03:34Z">
           <params>
             <param index="0">
               <value>
@@ -20,62 +35,62 @@
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
 Current browser version is 129.0.6668.59 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-GHD7SM5', ip: '192.168.0.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'DESKTOP-GHD7SM5', ip: '192.168.125.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x00E0A813+48355]
-(No symbol) [0x00D9C4B1]
-(No symbol) [0x00CA5358]
-(No symbol) [0x00CC61AC]
-(No symbol) [0x00CC1EF3]
-(No symbol) [0x00CC0579]
-(No symbol) [0x00CF0C55]
-(No symbol) [0x00CF093C]
-(No symbol) [0x00CEA536]
-(No symbol) [0x00CC82DC]
-(No symbol) [0x00CC93DD]
-GetHandleVerifier [0x0106AABD+2539405]
-GetHandleVerifier [0x010AA78F+2800735]
-GetHandleVerifier [0x010A456C+2775612]
-GetHandleVerifier [0x00E951E0+616112]
-(No symbol) [0x00DA5F8C]
-(No symbol) [0x00DA2328]
-(No symbol) [0x00DA240B]
-(No symbol) [0x00D94FF7]
-BaseThreadInitThunk [0x75E5FCC9+25]
-RtlGetAppContainerNamedObjectPath [0x77E180CE+286]
-RtlGetAppContainerNamedObjectPath [0x77E1809E+238]
+GetHandleVerifier [0x0080A813+48355]
+(No symbol) [0x0079C4B1]
+(No symbol) [0x006A5358]
+(No symbol) [0x006C61AC]
+(No symbol) [0x006C1EF3]
+(No symbol) [0x006C0579]
+(No symbol) [0x006F0C55]
+(No symbol) [0x006F093C]
+(No symbol) [0x006EA536]
+(No symbol) [0x006C82DC]
+(No symbol) [0x006C93DD]
+GetHandleVerifier [0x00A6AABD+2539405]
+GetHandleVerifier [0x00AAA78F+2800735]
+GetHandleVerifier [0x00AA456C+2775612]
+GetHandleVerifier [0x008951E0+616112]
+(No symbol) [0x007A5F8C]
+(No symbol) [0x007A2328]
+(No symbol) [0x007A240B]
+(No symbol) [0x00794FF7]
+BaseThreadInitThunk [0x75A4FCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B080CE+286]
+RtlGetAppContainerNamedObjectPath [0x77B0809E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
 Current browser version is 129.0.6668.59 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-GHD7SM5', ip: '192.168.0.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'DESKTOP-GHD7SM5', ip: '192.168.125.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x00E0A813+48355]
-(No symbol) [0x00D9C4B1]
-(No symbol) [0x00CA5358]
-(No symbol) [0x00CC61AC]
-(No symbol) [0x00CC1EF3]
-(No symbol) [0x00CC0579]
-(No symbol) [0x00CF0C55]
-(No symbol) [0x00CF093C]
-(No symbol) [0x00CEA536]
-(No symbol) [0x00CC82DC]
-(No symbol) [0x00CC93DD]
-GetHandleVerifier [0x0106AABD+2539405]
-GetHandleVerifier [0x010AA78F+2800735]
-GetHandleVerifier [0x010A456C+2775612]
-GetHandleVerifier [0x00E951E0+616112]
-(No symbol) [0x00DA5F8C]
-(No symbol) [0x00DA2328]
-(No symbol) [0x00DA240B]
-(No symbol) [0x00D94FF7]
-BaseThreadInitThunk [0x75E5FCC9+25]
-RtlGetAppContainerNamedObjectPath [0x77E180CE+286]
-RtlGetAppContainerNamedObjectPath [0x77E1809E+238]
+GetHandleVerifier [0x0080A813+48355]
+(No symbol) [0x0079C4B1]
+(No symbol) [0x006A5358]
+(No symbol) [0x006C61AC]
+(No symbol) [0x006C1EF3]
+(No symbol) [0x006C0579]
+(No symbol) [0x006F0C55]
+(No symbol) [0x006F093C]
+(No symbol) [0x006EA536]
+(No symbol) [0x006C82DC]
+(No symbol) [0x006C93DD]
+GetHandleVerifier [0x00A6AABD+2539405]
+GetHandleVerifier [0x00AAA78F+2800735]
+GetHandleVerifier [0x00AA456C+2775612]
+GetHandleVerifier [0x008951E0+616112]
+(No symbol) [0x007A5F8C]
+(No symbol) [0x007A2328]
+(No symbol) [0x007A240B]
+(No symbol) [0x00794FF7]
+BaseThreadInitThunk [0x75A4FCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B080CE+286]
+RtlGetAppContainerNamedObjectPath [0x77B0809E+238]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -133,20 +148,5 @@ at java.lang.Thread.run(Unknown Source)
         </test-method> <!-- Test -->
       </class> <!-- TestScripts.Verify_Test -->
     </test> <!-- Chrome -->
-    <test name="Edge" duration-ms="8657" started-at="2024-09-22T08:39:48Z" finished-at="2024-09-22T08:39:57Z">
-      <class name="TestScripts.Verify_Test">
-        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:TestScripts.Verify_Test@57d5872c]" name="Test" duration-ms="8641" started-at="2024-09-22T08:39:48Z" finished-at="2024-09-22T08:39:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- TestScripts.Verify_Test -->
-    </test> <!-- Edge -->
   </suite> <!-- Multi Browser -->
 </testng-results>
