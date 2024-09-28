@@ -16,13 +16,14 @@ GenericWrapper GW=new GenericWrapper();
 GW.OpenBrowser(Browser);
 GW.NavigateToURL("https://www.horamait.com");
 GW.FindElementWithPlaceHolder("Name");
+GW.FindElementWithPlaceHolder("Phone");
 System.out.println("Hello");
 System.out.println("hi");
 System.out.println("absc");
 Boolean Val=GW.FindElementWithPlaceHolder("Name").isDisplayed();
 SA.assertTrue(Val);
 SA.assertAll();
-System.out.println("he");
+System.out.println("hee");
 
 
 	}
