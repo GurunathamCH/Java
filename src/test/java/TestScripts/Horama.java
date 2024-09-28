@@ -25,6 +25,7 @@ public class Horama {
 	    driver.findElement(By.cssSelector("#top-menu > .navPages > .moduleMenu:nth-child(3) .txt-container")).click();
 	    driver.findElement(By.cssSelector(".navPages > .moduleMenu:nth-child(4) > .page-unique > .txt-container")).click();
 	    driver.findElement(By.linkText("WORKSHOPS")).click();
+	    System.out.println("navigated to work shops page");
 	  }
 
 }
