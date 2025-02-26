@@ -8,72 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Multi Browser</th></tr>
-<tr><td><a href="#t0">Edge</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">9,561</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Chrome</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,611</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">19,172</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">6,688</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Multi Browser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Edge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestScripts.Verify_Test</td><td><a href="#m0">Test</a></td><td rowspan="1">1727057005242</td><td rowspan="1">9518</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestScripts.Verify_Test</td><td><a href="#m1">Test</a></td><td rowspan="1">1727057005242</td><td rowspan="1">9568</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestScripts.Verify_Test</td><td><a href="#m0">Test</a></td><td rowspan="1">1726911459824</td><td rowspan="1">6641</td></tr></tbody>
 </table>
-<h2>Edge</h2><h3 id="m0">TestScripts.Verify_Test#Test</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Edge</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Chrome</h2><h3 id="m1">TestScripts.Verify_Test#Test</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 129.0.6668.59 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-GHD7SM5&apos;, ip: &apos;192.168.125.51&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	GetHandleVerifier [0x0080A813+48355]
-	(No symbol) [0x0079C4B1]
-	(No symbol) [0x006A5358]
-	(No symbol) [0x006C61AC]
-	(No symbol) [0x006C1EF3]
-	(No symbol) [0x006C0579]
-	(No symbol) [0x006F0C55]
-	(No symbol) [0x006F093C]
-	(No symbol) [0x006EA536]
-	(No symbol) [0x006C82DC]
-	(No symbol) [0x006C93DD]
-	GetHandleVerifier [0x00A6AABD+2539405]
-	GetHandleVerifier [0x00AAA78F+2800735]
-	GetHandleVerifier [0x00AA456C+2775612]
-	GetHandleVerifier [0x008951E0+616112]
-	(No symbol) [0x007A5F8C]
-	(No symbol) [0x007A2328]
-	(No symbol) [0x007A240B]
-	(No symbol) [0x00794FF7]
-	BaseThreadInitThunk [0x75A4FCC9+25]
-	RtlGetAppContainerNamedObjectPath [0x77B080CE+286]
-	RtlGetAppContainerNamedObjectPath [0x77B0809E+238]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at Utilities.GenericWrapper.OpenBrowser(GenericWrapper.java:55)
-	at TestScripts.Verify_Test.Test(Verify_Test.java:16)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">TestScripts.Verify_Test#Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

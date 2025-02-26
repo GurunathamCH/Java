@@ -543,9 +543,4 @@ public class GenericWrapper {
 	return Browser.findElements(By.tagName("select"));	
 
 	}
-	public WebElement FindElementWithPlaceHolder(String PlaceHoldrValue)
-	{
-		return Browser.findElement(By.xpath("//input[@placeholder='"+PlaceHoldrValue+"']"));
-		
-	}
 }
